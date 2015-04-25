@@ -1,7 +1,5 @@
----
-title: "Data Cleaning Project"
-output: html_document
----
+Data Cleaning Project
+===========
 
 This data was generated from mobile devices that recorded the movement of the various subjects while undertaking the six activities - (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). The raw data that was collected was cleaned to generate a data set that has the mean and standard deviation of the observations for each subject and activity.
 
@@ -28,7 +26,7 @@ xactl <- read.table("activity_labels.txt",col.names=c("activityid","activitylabe
 In this step the test and train data are loaded and named using the names loaded above.
 Then the subject and activity are loaded into data frames which are then added to the data set using bind_cols function from dplyr package. The two new columns are then named.
 ```{r}
-        xtest <- read.table("./test/X_test.txt", col.names=cn)        
+        xtest <- read.table("./test/X_test.txt", col.names=cn) 
         xsub  <- read.table("./test/subject_test.txt")
         xact <- read.table("./test/y_test.txt")
         xtest <- bind_cols(xsub[1],xtest)
