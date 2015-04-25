@@ -1,0 +1,87 @@
+Data Dictionary
+
+Samsung Accelerometer Measurement 
+Mean and Standard Deviation for each subject by activity
+
+Column.  Name (data type) - Description
+1. activitylabel (chr) - The activity that was observed.  
+2. subject (int) - The subject who did the activity.
+3. tbodyaccelerationmeanx (num) - The mean of body acceleration for x in the time domain.
+4. tbodyaccelerationmeany (num) - The mean of body acceleration for y in the time domain.
+5. tbodyaccelerationmeanz (num) - The mean of body acceleration for z in the time domain.
+6. tbodyaccelerationstddevx (num) - The standard deviation of body acceleration for x in the time domain.
+7. tbodyaccelerationstddevy (num) - The standard deviation of body acceleration for y in the time domain.
+8. tbodyaccelerationstddevz (num) - The standard deviation of body acceleration for z in the time domain.
+9. tgravityaccelerationmeanx (num) - The mean of gravity acceleration for x in the time domain.
+10. tgravityaccelerationmeany (num) - The mean of gravity acceleration for y in the time domain.
+11. tgravityaccelerationmeanz (num) - The mean of gravity acceleration for z in the time domain.
+12. tgravityaccelerationstddevx (num) - The standard deviation of gravity acceleration for x in the time domain.
+13. tgravityaccelerationstddevy (num) - The standard deviation of gravity acceleration for y in the time domain.
+14. tgravityaccelerationstddevz (num) - The standard deviation of gravity acceleration for z in the time domain.
+15. tbodyaccelerationjerkmeanx (num) - The mean of body jerk acceleration for x in the time domain.
+16. tbodyaccelerationjerkmeany (num) - The mean of body jerk acceleration for y in the time domain.
+17. tbodyaccelerationjerkmeanz (num) - The mean of body jerk acceleration for z in the time domain.
+18. tbodyaccelerationjerkstddevx (num) - The standard deviation of body jerk acceleration for x in the time domain.
+19. tbodyaccelerationjerkstddevy (num) - The standard deviation of body jerk acceleration for y in the time domain.
+20. tbodyaccelerationjerkstddevz (num) - The standard deviation of body jerk acceleration for z in the time domain.
+21. tbodygyromeanx (num) - The mean of gyro acceleration for x in the time domain.
+22. tbodygyromeany (num) - The mean of gyro acceleration for y in the time domain.
+23. tbodygyromeanz (num) - The mean of gyro acceleration for z in the time domain.
+24. tbodygyrostddevx (num) - The standard deviation of gyro acceleration for x in the time domain.
+25. tbodygyrostddevy (num) - The standard deviation of gyro acceleration for x in the time domain.
+26. tbodygyrostddevz (num) - The standard deviation of gyro acceleration for x in the time domain.
+27. tbodygyrojerkmeanx (num) - The mean of gyro jerk acceleration for x in the time domain.
+28. tbodygyrojerkmeany (num) - The mean of gyro jerk acceleration for y in the time domain.
+29. tbodygyrojerkmeanz (num) - The mean of gyro jerk acceleration for z in the time domain.
+30. tbodygyrojerkstddevx (num) - The mean of gyro jerk acceleration for x in the time domain.
+31. tbodygyrojerkstddevy (num) - The mean of gyro jerk acceleration for y in the time domain.
+32. tbodygyrojerkstddevz (num) - The mean of gyro jerk acceleration for z in the time domain.
+33. tbodyaccelerationmagnitudemean (num) - The mean of body acceleration magnitude in the time domain.
+34. tbodyaccelerationmagnitudestddev (num) - The standard deviation of body acceleration magnitude in the time domain.
+35. tgravityaccelerationmagnitudemean (num) - The mean of gravity acceleration magnitude in the time domain.
+36. tgravityaccelerationmagnitudestddev (num) - The standard deviation of gravity acceleration magnitude in the time domain.
+37. tbodyaccelerationjerkmagnitudemean (num) - The mean of body acceleration jerk magnitude in the time domain.
+38. tbodyaccelerationjerkmagnitudestddev (num) - The standard deviation of body acceleration jerk magnitude in the time domain.
+39. tbodygyromagnitudemean (num) - The mean of body gyro magnitude in the time domain.
+40. tbodygyromagnitudestddev (num) - The standard deviation of body gyro magnitude in the time domain.
+41. tbodygyrojerkmagnitudemean (num) - The mean of body gyro jerk magnitude in the time domain.
+42. tbodygyrojerkmagnitudestddev (num) - The standard deviation of body gyro jerk magnitude in the time domain.
+43. fbodyaccelerationmeanx (num) - The mean of body acceleration for x in the frequency domain.
+44. fbodyaccelerationmeany (num) - The mean of body acceleration for y in the frequency domain.
+45. fbodyaccelerationmeanz (num) - The mean of body acceleration for z in the frequency domain.
+46. fbodyaccelerationstddevx (num) - The standard deviation of body acceleration for x in the frequency domain.
+47. fbodyaccelerationstddevy (num) - The standard deviation of body acceleration for y in the frequency domain.
+48. fbodyaccelerationstddevz (num) - The standard deviation of body acceleration for z in the frequency domain.
+49. fbodyaccelerationmeanfreqx (num) - The mean of body acceleration for x in the frequency domain.
+50. fbodyaccelerationmeanfreqy (num) - The mean of body acceleration for y in the frequency domain.
+51. fbodyaccelerationmeanfreqz (num) - The mean of body acceleration for z in the frequency domain.
+52. fbodyaccelerationjerkmeanx (num) - The mean of body acceleration jerk for x in the frequency domain.
+53. fbodyaccelerationjerkmeany (num) - The mean of body acceleration jerk for y in the frequency domain.
+54. fbodyaccelerationjerkmeanz (num) - The mean of body acceleration jerk for z in the frequency domain.
+55. fbodyaccelerationjerkstddevx (num) - The standard deviation of body acceleration jerk for x in the frequency domain.
+56. fbodyaccelerationjerkstddevy (num) - The standard deviation of body acceleration jerk for y in the frequency domain.
+57. fbodyaccelerationjerkstddevz (num) - The standard deviation of body acceleration jerk for z in the frequency domain.
+58. fbodyaccelerationjerkmeanfreqx (num) - The mean of body acceleration jerk for x in the frequency domain.
+59. fbodyaccelerationjerkmeanfreqy (num) - The mean of body acceleration jerk for y in the frequency domain.
+60. fbodyaccelerationjerkmeanfreqz (num) - The mean of body acceleration jerk for z in the frequency domain.
+61. fbodygyromeanx (num) - The mean of body jerk for x in the frequency domain.
+62. fbodygyromeany (num) - The mean of body jerk for y in the frequency domain.
+63. fbodygyromeanz (num) - The mean of body jerk for z in the frequency domain.
+64. fbodygyrostddevx (num) - The standard deviation of body jerk for x in the frequency domain.
+65. fbodygyrostddevy (num) - The standard deviation of body jerk for y in the frequency domain.
+66. fbodygyrostddevz (num) - The standard deviation of body jerk for z in the frequency domain.
+67. fbodygyromeanfreqx (num) - The mean of body jerk for x in the frequency domain.
+68. fbodygyromeanfreqy (num) - The mean of body jerk for x in the frequency domain.
+69. fbodygyromeanfreqz (num) - The mean of body jerk for x in the frequency domain.
+70. fbodyaccelerationmagnitudemean (num) - The mean of body acceleration magnitude in the frequency domain.
+71. fbodyaccelerationmagnitudestddev (num) - The standard deviation of body acceleration magnitude in the frequency domain.
+72. fbodyaccelerationmagnitudemeanfreq (num) - The mean of body acceleration magnitude in the frequency domain.
+73. fbodybodyaccelerationjerkmagnitudemean (num) - The standard deviation of body acceleration magnitude in the frequency domain.
+74. fbodybodyaccelerationjerkmagnitudestddev (num) - The mean of body acceleration jerk magnitude in the frequency domain.
+75. fbodybodyaccelerationjerkmagnitudemeanfreq (num) - The standard deviation of body acceleration jerk magnitude in the frequency domain.
+76. fbodybodygyromagnitudemean (num) - The mean of body gyro magnitude in the frequency domain.
+77. fbodybodygyromagnitudestddev (num) - The standard deviation of body gyro magnitude in the frequency domain.
+78. fbodybodygyromagnitudemeanfreq (num) - The mean of body gyro magnitude in the frequency domain.
+79. fbodybodygyrojerkmagnitudemean (num) - The mean of body gyro jerk magnitude in the frequency domain.
+80. fbodybodygyrojerkmagnitudestddev (num) - The standard deviation of body gyro jerk magnitude in the frequency domain.
+81. fbodybodygyrojerkmagnitudemeanfreq (num) - The mean of body gyro jerk magnitude in the frequency domain.
