@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Data Cleaning Project"
 output: html_document
@@ -76,8 +75,3 @@ Add the descriptive activity label as a column.
 ```{r}
         frameApply(dfMeter, by = c('activitylabel', 'subject'), on = c(4:82), fun = colMeans)
 ```
- 
-=======
-# coursera_ds
-Coursera data science course work
->>>>>>> 9477c2c37d8ad5f2fdc014f5d7cc8aa1372c84ca
