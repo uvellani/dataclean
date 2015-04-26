@@ -3,7 +3,7 @@ Data Cleaning Project
 
 This data was generated from mobile devices that recorded the movement of the various subjects while undertaking the six activities - (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). The raw data that was collected was cleaned to generate a data set that has the mean and standard deviation of the observations for each subject and activity.
 
-The data cleaning program does the following -
+The data cleaning program (run_analysis.R) does the following -
 
 Load the packages for the functions that are used in the program.
 ```{r}
@@ -48,7 +48,7 @@ Now the test and train data frames are joined together into one data frame.
         xdata <- bind_rows(xtest,xtrain)
 ```
 
-From that data frame, a new data frame is created with columns that have only mean or standard deviation values plus the subject and activity. 'grep' is used to determine which columns to select.
+From that data frame, a new data frame is created with columns that have only mean or standard deviation values plus the subject and activity. 'grep' is used to determine which columns to select based on the key words 'mean' and 'std' being present in the column name, which in this accuraely extracts the right columns.
 ```{r}
         xmeanstd <- xdata[,c(1,2,grep("(mean|std)", names(xdata)))]
 ```
